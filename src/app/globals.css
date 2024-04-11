@@ -1349,8 +1349,8 @@ body[data-theme="dark"] .main-btn-container a {
   }
 
   .whatsapp {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     right: 2rem;
     bottom: 2rem;
     transition: transform 0.3s ease;
