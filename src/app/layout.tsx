@@ -10,6 +10,7 @@ import CursorTwo from "./components/CursorTwo";
 import MobileNav from "./components/MobileNav";
 import Theme from "./components/Theme";
 import Whatsapp from "./components/Whatsapp";
+import { PreloadResources } from "./components/PreloadResources";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const oswald = Oswald({ subsets: ["latin"], variable: "--font-oswald" });
@@ -36,6 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html className={`${materialSymbols.variable}`} lang="es">
+      <PreloadResources />
       <Provider>
         <body
           data-theme="light"
