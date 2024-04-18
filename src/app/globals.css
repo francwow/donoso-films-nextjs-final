@@ -522,7 +522,7 @@ i.symbol {
 
 /* <About /> */
 .about-section {
-  background: url("/img/about-placeholder.webp");
+  background: url("/img/about.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -663,7 +663,6 @@ i.symbol {
 }
 
 /* <Production /> */
-
 .production-section {
   background: url("/img/production.webp");
   background-position: center;
