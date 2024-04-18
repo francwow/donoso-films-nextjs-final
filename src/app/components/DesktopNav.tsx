@@ -5,7 +5,6 @@ import Languages from "./Languages";
 import { useLanguage, useNav } from "../contexts/ContextHooks";
 import { navItems, navSubItems } from "@/app/data/navItems";
 import Btn from "./Btn";
-// import Theme from "./Theme";
 import Social from "./Social";
 import Icon from "./GoogleIcon";
 import { useState } from "react";
@@ -64,7 +63,6 @@ const DesktopNav = () => {
           </ul>
         </ul>
       </nav>
-      {/* <Theme /> */}
       <Languages />
       <Social />
     </div>

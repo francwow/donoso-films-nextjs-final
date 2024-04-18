@@ -1,35 +1,26 @@
-// import Icon from "./GoogleIcon";
-
 type VideoProps = {
-  videoSrc: string;
-  // type: string;
-  tag: string;
+  videoArr: { type: string; src: string }[];
 };
 
-const Video = ({ videoSrc, tag }: VideoProps) => {
+const Video = ({ videoArr }: VideoProps) => {
   return (
     <div className="video-container">
-      {/* <div className="mute">
-        <Icon icon="volume_off" />
-      </div> */}
       <div className="video">
-        {tag === "video" ? (
-          // eslint-disable-next-line jsx-a11y/media-has-caption
-          <video
-            width={1920}
-            height={1080}
-            src={videoSrc}
-            preload="true"
-            muted={true}
-            loop
-            playsInline
-            autoPlay
-          >
-            <source src={videoSrc} type="video/mov" />
-          </video>
-        ) : (
-          <iframe title="youtube-video" src={videoSrc} allowFullScreen />
-        )}
+        <video
+          width={1920}
+          height={1080}
+          preload="true"
+          muted={true}
+          loop
+          playsInline
+          autoPlay
+        >
+          {videoArr.map((item, index) => {
+            return (
+              <source key={index} src={item.src} type={`video/${item.type}`} />
+            );
+          })}
+        </video>
       </div>
     </div>
   );

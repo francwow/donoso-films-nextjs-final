@@ -45,14 +45,6 @@ const workItems: WorkItems[] = [
     clientES: "Escape Room",
     imgSrc: img3.src,
   },
-  // {
-  //   titleES: "Tutoriales(producto y/o servicio)",
-  //   titleEN: "Tutorials (product and/or service)",
-  //   link: "",
-  //   clientES: "Nikken instalación de productos",
-  //   clientEN: "Nikken product installation",
-  //   imgSrc: img4.src,
-  // },
   {
     titleES: `Demostrativos(producto y/o servicio)`,
     titleEN: "Demonstrative(product and/or service)",
@@ -100,19 +92,6 @@ const workItems: WorkItems[] = [
   },
 ];
 
-// const itemStyle = workItems.map((item) => {
-//   const style = {
-//     backgroundImage: `url(${item.imgSrc})`,
-//     backgroundPosition: "center",
-//     backgroundRepeat: "no-repeat",
-//     backgroundSize: "cover",
-//     backgroundBlendMode: "overlay",
-//     backgroundColor: "var(--bg-color-cover)",
-//   };
-
-//   return style;
-// });
-
 const VideoCorporativo = () => {
   const { language } = useLanguage();
 
@@ -141,7 +120,7 @@ const VideoCorporativo = () => {
                           alt="video corporativo"
                           width={600}
                           height={600}
-                          priority
+                          fetchPriority="low"
                         />
                       </div>
                       {language === "ES" ? (

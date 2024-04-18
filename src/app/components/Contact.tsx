@@ -23,14 +23,6 @@ const Contact = () => {
                 : "At Donoso Films we are experts in the development and creativity of documentary projects, short films, commercial spots, series and movies. If you have an idea, contact us too, we would love to advise you."}
             </h3>
           </div>
-          {/* <div className="contact-info-item">
-            <Btn>
-              <Link href={""} target="_blank">
-                <Icon icon="location_on" />
-                <span>cra 4 # 34-28, Bogotá, Colombia</span>
-              </Link>
-            </Btn>
-          </div> */}
           <div className="contact-info-item">
             <Btn>
               <Link href={"https://wa.me/573228327037"} target="_blank">

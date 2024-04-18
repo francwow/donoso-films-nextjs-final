@@ -1,13 +1,10 @@
 "use client";
 
 import { useLanguage } from "../contexts/ContextHooks";
-// import Image from "next/image";
-// import aboutImg from "@/app/assets/webpImages/about-placeholder.webp";
-// import { useMediaQuery } from "usehooks-ts";
+
 import MainBtn from "./MainBtn";
 
 const About = () => {
-  // const desktop = useMediaQuery("(min-width: 991px)");
   const { language } = useLanguage();
 
   return (
@@ -15,15 +12,6 @@ const About = () => {
       <div className="about-overlay"></div>
       <div className="content-wrapper">
         <div className="about-info">
-          {/* <div className="img-container">
-              <Image
-                src={aboutImg}
-                alt="filming crew"
-                loading="lazy"
-                width={700}
-                height={700}
-              />
-            </div> */}
           <div className="about-text">
             <h2 className="section-header">
               {language === "ES"

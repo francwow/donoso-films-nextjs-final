@@ -5,6 +5,11 @@ import { useEffect, useState } from "react";
 import Video from "./Video";
 import Audio from "./Audio";
 
+const videoArr = [
+  { src: "/video/reel-final2.mp4", type: "mp4" },
+  { src: "/video/reel-final.mov", type: "mov" },
+];
+
 const IntroReel = () => {
   const [translateY, setTranslateY] = useState(0);
 
@@ -29,7 +34,7 @@ const IntroReel = () => {
       ></div>
       <div className="intro-video-wrapper">
         <Audio />
-        <Video videoSrc="/video/reel-final.mov" tag="video" />
+        <Video videoArr={videoArr} />
       </div>
     </section>
   );

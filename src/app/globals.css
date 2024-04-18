@@ -448,12 +448,6 @@ i.symbol {
   position: relative;
 }
 
-.intro-reel {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
 .reel-audio {
   position: absolute;
   width: 35px;
@@ -518,6 +512,12 @@ i.symbol {
   color: white;
   font-size: 2rem;
   text-align: center;
+}
+
+.video-placeholder {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
 }
 
 /* <About /> */
@@ -1622,10 +1622,6 @@ body[data-theme="dark"] .main-btn-container a {
   .prices-heading h3 {
     /* font-size: 2.3rem; */
     font-weight: 600;
-  }
-
-  .prices-number {
-    /* font-size: 1.9rem; */
   }
 
   .prices-info-item {
