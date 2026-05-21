@@ -171,6 +171,7 @@ i.symbol {
   margin-bottom: 2rem;
   text-align: start;
   line-height: 1.2;
+  text-align: center;
 }
 
 /* <Btn /> */
@@ -190,14 +191,18 @@ i.symbol {
   opacity: 1;
   border-bottom: 1px solid var(--theme-color);
   background-color: var(--theme-bg-color);
-  transition: 0.3s ease opacity, 0s ease transform;
+  transition:
+    0.3s ease opacity,
+    0s ease transform;
 }
 
 .header-container.scrolled {
   background-color: var(--theme-bg-scrolled);
   transform: translate3d(0, -100%, 0);
   opacity: 0;
-  transition: 0.3s ease opacity, 0s ease transform 0.6s;
+  transition:
+    0.3s ease opacity,
+    0s ease transform 0.6s;
 }
 
 .header {
@@ -587,6 +592,7 @@ i.symbol {
   gap: 1rem;
   justify-content: center;
   align-items: center;
+  margin-bottom: 4rem;
 }
 
 .work-items {
@@ -730,6 +736,9 @@ i.symbol {
   align-items: center;
   gap: 1rem;
   margin-bottom: 4rem;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .production-item-heading {
@@ -1096,7 +1105,9 @@ body[data-theme="dark"] .prices-section {
   z-index: 9999;
   mix-blend-mode: difference;
   pointer-events: none;
-  transition: 0.3s ease width, 0.3s ease height;
+  transition:
+    0.3s ease width,
+    0.3s ease height;
 }
 
 .dot-2 {
@@ -1112,7 +1123,9 @@ body[data-theme="dark"] .prices-section {
     rotate(45deg);
   background-color: white;
   mix-blend-mode: difference;
-  transition: 0.3s ease width, 0.3s ease height;
+  transition:
+    0.3s ease width,
+    0.3s ease height;
 }
 
 body[data-theme="dark"] .dot {
@@ -1401,7 +1414,9 @@ body[data-theme="dark"] .main-btn-container a {
     transform: scale(1, 0);
     transform-origin: top;
     opacity: 0;
-    transition: transform 0.1s ease, opacity 0.02s ease;
+    transition:
+      transform 0.1s ease,
+      opacity 0.02s ease;
     z-index: 99;
   }
 
@@ -1461,6 +1476,7 @@ body[data-theme="dark"] .main-btn-container a {
   /* <VideoCorporativo /> */
   .work-container {
     align-items: flex-start;
+    margin-bottom: 7rem;
   }
 
   .work-items {
@@ -1553,6 +1569,7 @@ body[data-theme="dark"] .main-btn-container a {
     position: relative;
     flex-direction: row-reverse;
     margin-bottom: 0;
+    background-color: transparent;
   }
 
   .production-item-icon {

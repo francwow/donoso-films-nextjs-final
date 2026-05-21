@@ -15,7 +15,7 @@ const Prices = () => {
             <PricesItem
               h3ES="Standard"
               h3EN="Standard"
-              price="2'000.000"
+              price="2'500.000"
               info1ES="1 guion de 1 a 2 minutos."
               info1EN="1 1-2 minute script."
               info2ES="1 día de grabación en locación con cámara, luces y micrófono."

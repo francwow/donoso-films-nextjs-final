@@ -20,6 +20,11 @@ const About = () => {
             </h2>
             <p>
               {language === "ES"
+                ? "Con más de 25 años en la industria, he perfeccionado el arte del montaje documental, donde la paciencia y la narrativa construyen realidades. Hoy, esa misma sensibilidad editorial guía mi exploración en la producción con Inteligencia Artificial, utilizando herramientas de vanguardia para expandir las fronteras visuales sin perder la esencia humana de cada historia."
+                : "With over 25 years in the industry, I've perfected the art of documentary editing, where patience and storytelling build realities. Today, that same editorial sensibility guides my exploration of AI-powered production, using cutting-edge tools to expand visual boundaries without losing the human essence of each story."}
+            </p>
+            <p>
+              {language === "ES"
                 ? "Hacemos amigos porque acompañamos el proceso creativo y de producción de nuestros clientes de principio a fin, nos gusta ser parte de su inspiración y su crecimiento generando vínculos que permitan una relación duradera, confiable y eficaz; y hacemos videos porque amamos lo que hacemos y nos encanta hacerlo bien."
                 : "We make friends because we accompany the creative and production process of our clients from start to finish, we like to be part of their inspiration and growth by generating links that allow a lasting, reliable and effective relationship; and we do videos because we love what we do and we love doing it well."}
               <br />

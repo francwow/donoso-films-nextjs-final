@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Antonio, Inter, Oswald } from "next/font/google";
 import localFont from "next/font/local";
 import React from "react";
+// @ts-ignore - allow side-effect import of global CSS when no type declarations are present
 import "./globals.css";
 import Cursor from "./components/Cursor";
 import Provider from "./components/Provider";

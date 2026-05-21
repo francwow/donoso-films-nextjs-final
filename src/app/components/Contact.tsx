@@ -35,7 +35,7 @@ const Contact = () => {
             <Btn>
               <Link href={"https://wa.me/573157865114"} target="_blank">
                 <Icon icon="call" />
-                <span>+57 315 78 65114</span>
+                <span>+57 315 7865114</span>
               </Link>
             </Btn>
           </div>

@@ -14,25 +14,25 @@ const Taller = () => {
           <div className="taller-heading">
             <h2 className="section-header">
               {language === "ES"
-                ? "TALLER DE PRODUCCIÓN AUDIOVISUAL"
-                : "AUDIOVISUAL PRODUCTION WORKSHOP"}
+                ? "ASESORÍA EN FLUJO DE TRABAJO PARA DOCUMENTALISTAS"
+                : "WORKFLOW ADVISORY FOR DOCUMENTARY MAKERS"}
             </h2>
           </div>
           <div className="taller-text">
             <p>
               {language === "ES"
-                ? "En Donoso Films también puedes aprender a hacer tus propios videos. En muchas ocasiones el contratar constantemente a una productora resulta costoso, es por ello que te ofrecemos un taller básico de realización de videos con celulares práctico y eficaz."
-                : "At Donoso Films you can also learn to make your own videos. In many cases, constantly hiring a production company is expensive, which is why we offer you a basic workshop on making videos with cell phones that is practical and effective."}
+                ? "Optimizamos el caos del material en bruto. Te asesoro en la arquitectura de postproducción para proyectos documentales, integrando herramientas de IA para la transcripción, organización de archivos y pre-montaje, permitiéndote centrarte en la narrativa y no en el proceso técnico."
+                : "We optimize the chaos of raw footage. I advise you on post-production architecture for documentary projects, integrating AI tools for transcription, file organization, and pre-editing, allowing you to focus on the narrative and not the technical process."}
             </p>
           </div>
           <div className="taller-text">
             <p>
               {language === "ES"
-                ? "En una semana de capacitación virtual o presencial te enseñaremos a crear la idea a partir de tu necesidad o la de tu empresa, escribir un guion, preparar el rodaje, grabar y editar."
-                : "In a week of virtual or in-person training we will teach you how to create the idea based on your needs or that of your company, write a script, prepare for filming, record and edit."}
+                ? "Combinamos el oficio con la vanguardia. Como experto en montaje documental, entiendo que la tecnología es solo una herramienta al servicio de una buena historia. Al integrar la Inteligencia Artificial en nuestros planes, no solo aceleramos la producción, sino que expandimos las posibilidades visuales y sonoras de tu marca, logrando resultados que antes eran exclusivos de las grandes producciones de Hollywood."
+                : "We combine craftsmanship with cutting-edge technology. As an expert in documentary editing, I understand that technology is just a tool at the service of a good story. By integrating Artificial Intelligence into our plans, we not only accelerate production, but also expand the visual and auditory possibilities of your brand, achieving results that were previously exclusive to major Hollywood productions."}
             </p>
           </div>
-          <div className="taller-text">
+          {/* <div className="taller-text">
             <p>
               {language === "ES"
                 ? "Durante 20 horas de capacitación repartidas en clases de 4 horas diarias de Lunes a Viernes podrás crear tu primer video con nuestra asesoría."
@@ -46,7 +46,7 @@ const Taller = () => {
                 ? "*Pueden participar de 1 a 4 personas por taller con el mismo costo."
                 : "*1 to 4 people can participate per workshop for the same price."}
             </span>
-          </div>
+          </div> */}
           <MainBtn
             btnTextEN="Let's work together"
             btnTextES="Trabajemos juntos"

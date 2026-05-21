@@ -6,8 +6,8 @@ import Video from "./Video";
 import Audio from "./Audio";
 
 const videoArr = [
-  { src: "/video/reel-final2.mp4", type: "mp4" },
-  { src: "/video/reel-final.mov", type: "mov" },
+  { src: "/video/reel-website-2026.mp4", type: "mp4" },
+  { src: "/video/reel-website-2026.mov", type: "mov" },
 ];
 
 const IntroReel = () => {
