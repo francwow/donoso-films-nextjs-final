@@ -23,14 +23,14 @@ const Contact = () => {
                 : "At Donoso Films we are experts in the development and creativity of documentary projects, short films, commercial spots, series and movies. If you have an idea, contact us too, we would love to advise you."}
             </h3>
           </div>
-          <div className="contact-info-item">
+          {/* <div className="contact-info-item">
             <Btn>
               <Link href={"https://wa.me/573228327037"} target="_blank">
                 <Icon icon="call" />
                 <span>+57 322 8327037</span>
               </Link>
             </Btn>
-          </div>
+          </div> */}
           <div className="contact-info-item">
             <Btn>
               <Link href={"https://wa.me/573157865114"} target="_blank">
