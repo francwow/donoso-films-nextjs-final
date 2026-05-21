@@ -33,7 +33,7 @@ const Audio = () => {
           </button>
         </div>
       </Btn>
-      <audio ref={audioRef} loop src="/audio/musica-reel.mp3"></audio>
+      <audio ref={audioRef} loop src="/audio/audio-reel-2026.wav"></audio>
     </div>
   );
 };
